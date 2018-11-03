@@ -1,0 +1,231 @@
+/*----------------------H  E  A  D  E  R--------------------------------*/
+body{
+    background-color:#ffffff!important;
+    font-family: font-family:'Roboto', sans-serif;
+}
+
+
+.container{
+    max-width: 1056px;
+}
+.navbar {
+    height: 72px;
+  
+}
+.nav-link{
+    color:  #3a3f52;
+    text-transform: initial;
+}
+.btn-primary{
+    background-color: #6772e5;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+/*-------------------------H  E  A  D  E  R   E  N  D-------------------------*/
+
+
+/*--------------------------SECTION MAIN START-------------------------------------*/
+
+#section-main{
+    background-color:#f6f8f9;
+}
+
+#section-main h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
+
+#section-main p {
+	font-size: 24px;
+    font-weight: 400;
+    color: #8da2b5;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#section-main span {
+	font-weight: 400;
+    color: #0095f7;
+    text-transform: uppercase;
+}
+/*--------------------------SECTION MAIN END-------------------------------------*/
+
+/*------------------------------SECTION TWO START-------------------------------*/
+#section-two{
+    padding:100px 0px;
+}
+
+#section-two p {
+	font-size: 20px;
+    font-weight: 400;
+    color: #8da2b5;
+}
+
+#section-two span {
+	font-weight: 400;
+	color: #0095f7;
+	text-transform: uppercase;
+}
+/*------------------------------SECTION TWO END-------------------------------*/
+/*----------------------------------TESTIMONIAL START_--------------------------*/
+
+#testimonial{
+    background-color:  #f6f8f9;
+    padding:100px 0px;
+}
+.title{
+    max-width: 500px;
+    font-weight: 700;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center
+}
+.title p {
+	font-size: 20px;
+	font-weight: 400;
+	color: #8da2b5;
+	margin-bottom: 0px;
+}
+.profile{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.rating {
+	background-color: #0095f7;
+	padding: 2px 12px;
+    border-radius: 50px;
+    color: white;
+}
+.box {
+    background-color: #ffffff;
+	padding: 40px 20px;
+	border: 1px solid #F8F9FB;
+	border-radius: 20px;
+	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	margin-top: 30px;
+}
+.box small {
+    color: #8da2b5;
+    display: inline-block;
+}
+
+
+
+
+/*----------------------------------TESTIMONIAL END_--------------------------*/
+
+/*----------------------------------Pricing START-------------------------------*/
+.btn-buy {
+	color: #ffffff;
+	background-color: #0095f7;
+	letter-spacing: .1em;
+	padding: 15px 48px;
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+.btn-demo {
+	font-size: 12px;
+    background-color: #6772e5;
+    color: #ffffff;
+    padding: 15px 48px;
+    display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+.pricing-box {
+	background-color: #ffffff;
+	padding: 40px 20px;
+	border: 1px solid #F8F9FB;
+	border-radius: 6px;
+	box-shadow: 0 0 1px 0 rgba(0,12,32,0.04), 0 10px 16px 0 rgba(10,31,68,0.06);
+	margin-top: 30px;
+}
+.pricing-box ul{
+    padding-left: 10px;
+    list-style-type: none;
+   
+}
+i{
+color: #6772e5;
+}
+#pricing{
+    padding: 100px 0px;
+}
+
+/*-----------------------------------Pricing End--------------------------------*/
+#get-started{
+    background-image: url('images/blue.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    padding: 100px 0px;
+}
+#get-started .content-title{
+    color:white;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #ffffff!important;
+	color: #0095f7!important;
+	padding: 15px 45px;
+}
+/*--------------------------------------FOOTER-------------------------------------------*/
+footer {
+	background-color: #292c31;
+    padding: 60px 0;
+    color: #62656a;
+}
+
+footer h5 {
+	color: #aeb3bd;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-bottom: 20px;
+}
+
+footer p {
+	font-size: 12px;
+	font-weight: 300;
+	color: #62656a;
+	text-align: justify;
+	padding: 0px;
+}
+
+footer li {
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: .05em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+footer a {
+	color: #62656a;
+}
+
+footer a:hover {
+	color: #0095f7;
+	text-decoration: none;
+}
+
+footer i {
+	font-size: 25px;
+	color: #62656a;
+	margin-right: 10px;
+}
+
+footer i:hover {
+	color: #0095f7;
+}
+
+footer small {
+	color: #62656a;
+	float: right;
+}
+
+.external-links {
+	color: #0095f7;
+}
